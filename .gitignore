@@ -13,4 +13,4 @@ build/
 
 *.log
 data
-nohup.log
+nohup.out
