@@ -54,7 +54,7 @@ def kill_pid(name, key_word):
 
 def launch_stable_diffusion():
     path = '/Users/yujiaping/Documents/Tool/stable_diffusion/stable-diffusion-webui'
-    cmd = 'bash webui.sh'
+    cmd = 'bash webui.sh --api'
     pid_name = 'stable_diffusion.pid'
     if test_pid(pid_name, cmd):
         print('stable diffusion already launched.')
